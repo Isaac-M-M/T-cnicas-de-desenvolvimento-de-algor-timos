@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ISAACMESQUITAMOREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-04 09:13:43 "/>
+        <attribute name="created" value="SVNBQUNNRVNRVUlUQU1PUkVJUkE7REYwMS1MQUIwMi01MjsyMDI1LTA5LTA0OyIwOToxMzoyMyAiOzM0MjU="/>
+        <attribute name="edited" value="SVNBQUNNRVNRVUlUQU1PUkVJUkE7REYwMS1MQUIwMi01MjsyMDI1LTA5LTA0OyIwOToxMzoyNCAiOzE7SVNBQUNNRVNRVUlUQU1PUkVJUkE7REYwMS1MQUIwMi01MjsyMDI1LTA5LTA0OyIwOTowMToyNiAiO2NhbGN1bG9EZU1lZGlhLmZwcmc7ODk0Mg=="/>
+        <attribute name="edited" value="SVNBQUNNRVNRVUlUQU1PUkVJUkE7REYwMS1MQUIwMi01MjsyMDI1LTA5LTA0OyIwOToxMzo0MyAiOzE7MzUzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota: &quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a segunda nota: &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite a terceira nota: &quot;" newline="True"/>
+            <input variable="nota3"/>
+            <assign variable="media" expression="(nota1 + nota2 + nota3) / 3"/>
+            <output expression="&quot;M&#233;dia: &quot; &amp; media" newline="True"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="&quot;Aluno aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Aluno reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

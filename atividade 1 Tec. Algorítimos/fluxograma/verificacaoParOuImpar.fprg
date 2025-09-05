@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ISAACMESQUITAMOREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-04 08:57:41 "/>
+        <attribute name="created" value="SVNBQUNNRVNRVUlUQU1PUkVJUkE7REYwMS1MQUIwMi01MjsyMDI1LTA5LTA0OyIwODowMjoxMCAiOzM0MTg="/>
+        <attribute name="edited" value="SVNBQUNNRVNRVUlUQU1PUkVJUkE7REYwMS1MQUIwMi01MjsyMDI1LTA5LTA0OyIwODo1Nzo0MSAiOzQ7MzU0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num % 2 = 0">
+                <then>
+                    <output expression="&quot;O n&#250;mero &#233; par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero &#233; impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

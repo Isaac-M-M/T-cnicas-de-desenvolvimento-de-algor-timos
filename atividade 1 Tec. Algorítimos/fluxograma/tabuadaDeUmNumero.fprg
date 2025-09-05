@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ISAACMESQUITAMOREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-04 09:17:02 "/>
+        <attribute name="created" value="SVNBQUNNRVNRVUlUQU1PUkVJUkE7REYwMS1MQUIwMi01MjsyMDI1LTA5LTA0OyIwOToxMzo0OCAiOzM0MzI="/>
+        <attribute name="edited" value="SVNBQUNNRVNRVUlUQU1PUkVJUkE7REYwMS1MQUIwMi01MjsyMDI1LTA5LTA0OyIwOToxNzowMiAiOzE7MzUzNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, num, resultado" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero para ver a tabuada: &quot;" newline="True"/>
+            <input variable="num"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <assign variable="resultado" expression="num * i"/>
+                <output expression="num &amp; &quot; x &quot; &amp; i &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
